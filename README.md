@@ -129,14 +129,10 @@ This project has been tested and verified with the following specific versions:
 
 > **Note**: Hardhat is installed as a local dependency rather than globally. This ensures version consistency across different environments, avoids conflicts with other projects, and guarantees reproducible builds. All Hardhat commands must be prefixed with `npx` (e.g., `npx hardhat node`).
 
-### Browser Extensions
-
-- **MetaMask** or **Rabby Wallet** browser extension for Web3 interactions
-
+### Running the tests
 
 ```
 
-**`client/`** - Contains the React frontend built with Create React App (CRA) and CRACO. Handles user interface, wallet connections, and contract interactions.
-
-**`contract/`** - Contains Hardhat workspace with Solidity smart contracts, deployment scripts, and test suite. All contract operations (compile, test, deploy) are executed from this directory.
+npm install 
+npm run dev
 
